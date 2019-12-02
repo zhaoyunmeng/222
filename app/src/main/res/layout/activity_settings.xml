@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:overScrollMode="never">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_gray"
+        android:orientation="vertical"
+        android:paddingBottom="80dp">
+
+        <include layout="@layout/layout_appbar" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/selector_bg_main"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="账号管理" />
+
+            <com.bijie.edu.demo.CircleImageView
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:drawableEnd="@drawable/ic_arrow_right_grey" />
+        </LinearLayout>
+
+
+        <View style="@style/AppDivider" />
+
+        <TextView
+            android:id="@+id/pwd"
+            style="@style/AppMenuStyle"
+            android:text="手机号码" />
+
+        <View style="@style/AppDivider" />
+
+        <TextView
+            style="@style/AppMenuStyle"
+            android:text="QQ达人" />
+
+        <TextView
+            style="@style/AppMenuStyle"
+            android:layout_marginTop="16dp"
+            android:text="消息通知" />
+
+        <TextView
+            style="@style/AppMenuStyle"
+            android:layout_marginTop="16dp"
+            android:text="账号、设备安全" />
+
+        <View style="@style/AppDivider" />
+
+        <TextView
+            style="@style/AppMenuStyle"
+            android:text="联系人、隐私" />
+
+        <View style="@style/AppDivider" />
+
+        <TextView
+            style="@style/AppMenuStyle"
+            android:text="通用" />
+
+        <View style="@style/AppDivider" />
+
+        <TextView
+            style="@style/AppMenuStyle"
+            android:text="辅助功能" />
+
+        <TextView
+            style="@style/AppMenuStyle"
+            android:layout_marginTop="16dp"
+            android:text="免流量特权" />
+
+        <TextView
+            style="@style/AppMenuStyle"
+            android:layout_marginTop="32dp"
+            android:text="关于QQ与帮助" />
+
+    </LinearLayout>
+
+</ScrollView>

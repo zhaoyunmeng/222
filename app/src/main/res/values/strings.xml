@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Demo</string>
+
+    <string name="back">返回</string>
+    <string name="sign_in">登 录</string>
+    <string name="welcome_sign_in">欢迎登录</string>
+    <string name="username">账 号</string>
+    <string name="password">密 码</string>
+    <string name="new_user">新户注册 , 领福利></string>
+    <string name="new_pwd">忘记密码?</string>
+    <string name="sign_in_third">第三方登录</string>
+    <string name="login_user_hint">请输入手机号/用户名</string>
+    <string name="input_password">请输入登录密码</string>
+    <string name="unset_gesture">暂不设置</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="title_activity_tab_layout_demo">TabLayoutDemoActivity</string>
+    <string name="title_activity_bottom_nav_demo">BottomNavDemoActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>
